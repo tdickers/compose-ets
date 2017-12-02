@@ -6,6 +6,6 @@ Set the usual CLI arguments via the `ETS_CLI_ARGS` environment variable instead.
 Using this example:
 * `docker-compose up -d`
 * `curl -H 'Host: nodejs.test' "http://localhost:8080?value=foo"`
-* `docker-compose up -d`
+* `docker-compose down`
 
 The value of the query string parameter `value` will be echoed back.
